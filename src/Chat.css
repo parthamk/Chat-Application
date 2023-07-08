@@ -21,7 +21,7 @@
 
 .chatBody{
     flex: 1;
-    background-image: url(https://user-images.githubusercontent.com/110169184/245232265-62d95752-665f-40f5-bb75-34e663e3de98.png);
+    background-image: url('./img/chat_bg.png');
     padding: 30px;
     overflow: scroll;
     display: flex;
