@@ -41,7 +41,7 @@ const Register = () => {
             type="email"
             name="email"
             id="email"
-            placeholder="Enter yout email here"
+            placeholder="Enter your email here"
             value={email}
             onChange={(e)=>{setEmail(e.target.value)}}
           />
@@ -53,6 +53,16 @@ const Register = () => {
             name="password"
             id="password"
             placeholder="Enter your password"
+            onChange={(e)=>{setPassword(e.target.value)}}
+          />
+        </div>
+        <div>
+          <label htmlFor="password"> Confirm Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter the same password again"
             onChange={(e)=>{setPassword(e.target.value)}}
           />
         </div>
